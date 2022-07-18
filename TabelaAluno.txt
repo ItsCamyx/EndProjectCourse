@@ -1,0 +1,9 @@
+create table paciente(
+idpaciente bigint not null auto_increment,
+nome varchar(50) not null,
+dataNasc varchar(8) not null,
+Ex1 varchar(15) not null,
+Ex2 varchar(15) null,
+Ex3 varchar(15) null,
+primary key(idpaciente)
+);
